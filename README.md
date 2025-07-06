@@ -37,7 +37,6 @@ No ML model retraining needed. Just pure, effective feature pruning.
 
 Install the required Python dependencies using `pip`:
 
-```bash
 pip install pandas numpy networkx
 ##📚 Usage
 #🔁 Step-by-step
