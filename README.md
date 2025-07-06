@@ -15,7 +15,7 @@ pip install pandas numpy networkx
 
 ## Usage
 
-To use Raven, you can simply download the raw of [`featureseive.py`](featureseive.py) and import it as
+To use featuresieve, you can simply download the raw of [`featureseive.py`](featureseive.py) and import it as
 
 ```py
 from featureseive import featureseive
@@ -26,7 +26,8 @@ Once you have it imported, you can identify redundant features. Here's an exampl
 ```py
 really_huge_dataset = pd.read_csv('./really_huge_dataset.csv')
 
-redundant_features = raven(really_huge_dataset)
+redundant_features = featuresieve
+(really_huge_dataset)
 
 smaller_dataset = really_huge_dataset.drop(columns=redundant_features)
 ```
