@@ -39,15 +39,15 @@ Install the required Python dependencies using `pip`:
 
 ```bash
 pip install pandas numpy networkx
-📚 Usage
-🔁 Step-by-step
+##📚 Usage
+#🔁 Step-by-step
 Clone or download featureseive.py
 
 Import it in your project
 
 Call it with a pandas DataFrame
 
-🧪 Example
+##🧪 Example
 import pandas as pd
 from featureseive import featureseive
 
@@ -62,7 +62,7 @@ clean_df = df.drop(columns=redundant)
 
 print("Redundant features removed:", redundant)
 
-🔍 How It Works
+##🔍 How It Works
 Computes correlation matrix of features
 
 Builds a similarity graph of highly correlated features
@@ -71,7 +71,7 @@ Uses graph clustering to find groups of redundant features
 
 Selects one representative feature from each group based on proximity to others
 
-🛠 Tech Stack
+##🛠 Tech Stack
 Python
 
 Pandas – Data manipulation
@@ -82,7 +82,7 @@ NetworkX – Graph-based feature grouping
 
 Streamlit – Live app frontend
 
-💡 Ideal For
+##💡 Ideal For
 Data preprocessing pipelines
 
 Feature selection in AutoML workflows
@@ -91,12 +91,12 @@ Dimensionality reduction before clustering/classification
 
 Cleaning large CSVs with high feature overlap
 
-🙋 Contact
+#🙋 Contact
 For support, questions, or collaborations:
 📧 pnisarga7@gmail.com
 
-📄 License
+#📄 License
 This project is licensed under the MIT License.
 
-🌱 Contribute
+#🌱 Contribute
 Feel free to fork, star ⭐, and submit issues or pull requests. Contributions are welcome!
