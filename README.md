@@ -40,3 +40,37 @@ redundant = featureseive(df)
 clean_df = df.drop(columns=redundant)
 
 print("Redundant features removed:", redundant)
+
+```
+## 🔍 How It Works
+
+- Computes correlation matrix of features
+- Builds a similarity graph of highly correlated features
+- Uses graph clustering to find groups of redundant features
+- Selects one representative feature from each group based on proximity to others
+
+---
+
+## 🛠 Tech Stack
+
+- **Python**
+- **Pandas** – Data manipulation
+- **NumPy** – Numerical operations
+- **NetworkX** – Graph-based feature grouping
+- **Streamlit** – Live app frontend
+
+---
+
+## 💡 Ideal For
+
+- Data preprocessing pipelines
+- Feature selection in AutoML workflows
+- Dimensionality reduction before clustering/classification
+- Cleaning large CSVs with high feature overlap
+
+---
+
+## 🙋 Contact
+
+For support, questions, or collaborations:  
+📧 **pnisarga7@gmail.com**
