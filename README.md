@@ -11,5 +11,32 @@
 
 Install the required Python dependencies using `pip`:
 
-```bash
 pip install pandas numpy networkx
+
+
+## 📚 Usage
+
+### 🔁 Step-by-step
+
+1. Clone or download `featureseive.py`
+2. Import it in your project
+3. Call it with a pandas DataFrame
+
+---
+
+### 🧪 Example
+
+```python
+import pandas as pd
+from featureseive import featureseive
+
+# Load your large dataset
+df = pd.read_csv('really_huge_dataset.csv')
+
+# Get list of redundant features
+redundant = featureseive(df)
+
+# Drop them to get a leaner dataset
+clean_df = df.drop(columns=redundant)
+
+print("Redundant features removed:", redundant)
