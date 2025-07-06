@@ -1,6 +1,7 @@
 # FeatureSieve : Like a sieve filters unwanted parts, this filters redundant features
  [🐦‍⬛](https://www.google.com/imgres?q=images)
 ![image](https://github.com/user-attachments/assets/e4b39edf-bc2d-480e-9b17-c2cc004f4fea)
+### 🔗 [Click here to try FeatureSieve live on Streamlit](https://featuresieve-21.streamlit.app)
 
 An ultra-fast tool to reduce the attributes (features) of that insanely large dataset in a way that doesn't affect dataset quality. It does this by identifying clusters of linearly related (and therefore redundant) features, and only preserving the feature most 'near' to all other features.
 
