@@ -48,9 +48,6 @@ Import it in your project
 Call it with a pandas DataFrame
 
 🧪 Example
-python
-Copy
-Edit
 import pandas as pd
 from featureseive import featureseive
 
@@ -64,6 +61,7 @@ redundant = featureseive(df)
 clean_df = df.drop(columns=redundant)
 
 print("Redundant features removed:", redundant)
+
 🔍 How It Works
 Computes correlation matrix of features
 
@@ -95,7 +93,7 @@ Cleaning large CSVs with high feature overlap
 
 🙋 Contact
 For support, questions, or collaborations:
-📧 nisargap.projects@gmail.com
+📧 pnisarga7@gmail.com
 
 📄 License
 This project is licensed under the MIT License.
